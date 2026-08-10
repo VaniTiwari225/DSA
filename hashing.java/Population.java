@@ -8,5 +8,12 @@ public class Population{
         System.out.println(map);
         map.put("india",200);
         System.out.println(map);
+        
+        //check if key india is present in the map or not
+        if(map.containsKey("india")){
+            System.out.println("true");
+        }else{
+            System.out.println("false");
+        }
     }
 }
