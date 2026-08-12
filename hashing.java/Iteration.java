@@ -9,7 +9,9 @@ public class Iteration {
             System.out.println(e.getKey());
             System.out.println(e.getValue());
         }
+        //removing a key value pair
         map.remove("china");
         System.out.println(map);
+
     }
 }
