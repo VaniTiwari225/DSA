@@ -1,5 +1,7 @@
+//basics of hashset
 import java.util.HashSet;
 import java.util.Iterator;
+
 public class Hashset {
     public static void main(String[] args) {
         HashSet<Integer> set=new HashSet<>();
