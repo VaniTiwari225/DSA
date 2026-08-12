@@ -15,5 +15,8 @@ public class Population{
         }else{
             System.out.println("false");
         }
+        //check which value is assigned to a specific key
+        System.out.println(map.get("india"));//key exists
+        System.out.println(map.get("indonesia"));//key doesn't exist
     }
 }
