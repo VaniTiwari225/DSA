@@ -26,6 +26,6 @@ public class Highestoccuringelement {
                 maxele=key;
             }
         }
-        System.out.println("Highest occuring element is :"+maxele);
+        System.out.print("Highest occuring element is :"+maxele);
         }
     }
