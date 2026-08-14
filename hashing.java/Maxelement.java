@@ -34,8 +34,8 @@ public class Maxelement {
                 max=key;
             }
         }
-        System.out.println("element with highest freq :"+max);
-        System.out.println("Frequency :"+maxfreq);
+        System.out.print("element with highest freq :"+max);
+        System.out.print("Frequency :"+maxfreq);
         sc.close();
     }
 }
